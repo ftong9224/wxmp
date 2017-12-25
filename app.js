@@ -1,7 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
-    //调用API从本地缓存中获取数据，测试VS+GIT
+    //调用API从本地缓存中获取数据，测试VS+GIT,学习使用VSCode和Git
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
